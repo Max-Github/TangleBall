@@ -26,7 +26,7 @@
 				}
 			}
 		</style>
-		<link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 
 
 		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/ico/apple-touch-icon-144-precomposed.png">
@@ -37,44 +37,26 @@
 
 
 		<script src="/js/jquery-2.0.2.min.js"></script>
-        <!--
-        <script src="/js/bootstrap-transition.js"></script>
-        <script src="/js/bootstrap-alert.js"></script>
-        <script src="/js/bootstrap-modal.js"></script>
-        <script src="/js/bootstrap-dropdown.js"></script>
-        <script src="/js/bootstrap-scrollspy.js"></script>
-        <script src="/js/bootstrap-tab.js"></script>
-        <script src="/js/bootstrap-tooltip.js"></script>
-        <script src="/js/bootstrap-popover.js"></script>
-        <script src="/js/bootstrap-button.js"></script>
-        <script src="/js/bootstrap-collapse.js"></script>
-        <script src="/js/bootstrap-carousel.js"></script>
-        <script src="/js/bootstrap-typeahead.js"></script>
-        -->
+		<script src="/js/bootstrap.min.js"></script>
 	</head>
 
 	<body>
-
         <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="navbar-inner">
-                <div class="container-fluid">
-                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="brand" href="#">Tangleball.org.nz</a>
-                    <div class="nav-collapse collapse">
-                        <ul class="nav">
-<li class="active"><a href="index.php?Page=home">Home</a></li><li><a href="http://www.tangleball.org.nz/wiki/">Wiki</a></li><li><a href="http://tumblr.tangleball.org.nz/">Blog</a></li><li><a href="http://www.tangleball.org.nz/mailman/listinfo/discussion">Discussion List</a></li><li><a href="http://tumblr.tangleball.org.nz/FindUs">Where to Find Us</a></li><li><a href="index.php?Page=about">About</a></li><li><a href="index.php?Page=contact">Contact</a></li>                        </ul>
-                    </div><!--/.nav-collapse -->
+	    <div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#">Tangleball.org.nz</a>
+		</div>
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="index.php?Page=home">Home</a></li>
+			<li><a href="/wiki/">Wiki</a></li>
+			<li><a href="/mailman/listinfo/discussion">Discussion List</a></li>
+			<li><a href="#" data-toggle="modal" data-target="#FindUs">Where to Find Us</a></li>
+		</ul>
                 </div>
-            </div>
         </div>
 
-		<div class="container-fluid">
-			<div class="row-fluid">
-				<div class="span3">
+			<div class="row">
+				<div class="col-md-3">
 					<div class="well sidebar-nav">
 						<ul class="nav nav-list">
 							<li class="nav-header">Sidebar</li>
@@ -90,71 +72,93 @@
                             </li-->
 
 						</ul>
-					</div><!--/.well -->
-				</div><!--/span-->
+					</div>
+				</div>
 
-				<div class="span9">
+				<div class="col-md-9">
 
 					<div class="hero-unit">
 						<h1>Tangleball</h1>
 						<p>Tangleball is an Auckland-based "Makerspace" or "Hackerspace". We provide a place for creative people to collaborate on building their ideas and aim to nurture technical, social and artistic ideas. The best way to get in contact with us is by visiting the space on a Monday evening, from 6:30pm. See below for more information on visiting.</p>
-<p>Tangle Ball members aim to be inclusive of all members of society. At all events we welcome all genders, ages and ethnicities.</p>
+						<p>Tangle Ball members aim to be inclusive of all members of society. At all events we welcome all genders, ages and ethnicities.</p>
 					</div>
-					<div class="row-fluid">
+					<div class="row">
 
-						<div class="span4">
+						<div class="col-md-4">
 							<h2>What we are</h2>
 							<p>Tangle Ball is a non-hierarchical, self-organising collective. We value equality, autonomy and self-determination. See the link below for more information.</p>
-							<p><a class="btn" href="http://www.tangleball.org.nz/wiki/index.php/About">About &raquo;</a></p>
-						</div><!--/span-->
+							<p><a class="btn btn-default" href="http://www.tangleball.org.nz/wiki/index.php/About">About &raquo;</a></p>
+						</div>
 
-						<div class="span4">
+						<div class="col-md-4">
 							<h2>What we do</h2>
 							<p>We work on various projects, sometimes individually, sometimes in small or large groups. Click the link to see a selection.</p>
-							<p><a class="btn" href="http://www.tangleball.org.nz/wiki/index.php/Project show case">Project show case &raquo;</a></p>
-						</div><!--/span-->
+							<p><a class="btn btn-default" href="http://www.tangleball.org.nz/wiki/index.php/Project_show_case">Project show case &raquo;</a></p>
+						</div>
 
-						<div class="span4">
+						<div class="col-md-4">
 							<h2>Visiting</h2>
 							<p>If you would like to meet some of Tangle Ball's members and see what we do and how we do it, click the link to find out how.</p>
-							<p><a class="btn" href="http://www.tangleball.org.nz/wiki/index.php/Visiting Tangle Ball">Visiting Tangle Ball &raquo;</a></p>
-						</div><!--/span-->
+							<p><a class="btn btn-default" href="http://www.tangleball.org.nz/wiki/index.php/Visiting_Tangle_Ball">Visiting Tangle Ball &raquo;</a></p>
+						</div>
 
-					</div><!--/row-->
+					</div>
 
-					<div class="row-fluid">
+					<div class="row">
 
-						<div class="span4">
+						<div class="col-md-4">
 							<h2>Joining</h2>
 							<p>Membership is open for anyone who wishes to join, follow the link to find out more.</p>
-							<p><a class="btn" href="http://www.tangleball.org.nz/wiki/index.php/Membership">Membership &raquo;</a></p>
-						</div><!--/span-->
+							<p><a class="btn btn-default" href="http://www.tangleball.org.nz/wiki/index.php/Membership">Membership &raquo;</a></p>
+						</div>
 
-						<div class="span4">
+						<div class="col-md-4">
 							<h2>Resources</h2>
 							<p>At Tangle Ball there are various tools, materials and bench-space available for working on your project.</p>
-							<p><a class="btn" href="http://www.tangleball.org.nz/wiki/index.php/Resources">List of resources &raquo;</a></p>
-						</div><!--/span-->
+							<p><a class="btn btn-default" href="http://www.tangleball.org.nz/wiki/index.php/Resources">List of resources &raquo;</a></p>
+						</div>
 
-						<div class="span4">
+						<div class="col-md-4">
 							<h2>More information</h2>
-							<p>If you would like to know more, there are various channels which show off what we are doing: <a href="https://www.facebook.com/tangleball"/>Facebook</a> and <a href="http://www.meetup.com/Tangleball/">Meetup</a> are the two most prominent resources.</p>
-						</div><!--/span-->
+							<p>If you would like to know more, there are various channels which show off what we are doing: <a href="https://www.facebook.com/tangleball">Facebook</a> and <a href="http://www.meetup.com/Tangleball/">Meetup</a> are the two most prominent resources.</p>
+						</div>
 
-					</div><!--/row-->
+					</div>
 
-				</div><!--/span-->
+				</div>
 
-			</div><!--/row-->
 
 
             <hr>
+	</div><!--/.fluid-container-->
+
 
             <footer>
                 <p><span style="-moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); display: inline-block;">&copy;</span> Tangleball 2015</p>
             </footer>
 
-        </div><!--/.fluid-container-->
+
+
+	<div class="modal fade" id="FindUs" tabindex="-1" role="dialog" aria-labelledby="Find Us" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Getting To Tanglebale</h4>
+	      </div>
+	      <div class="modal-body">
+
+		<p>You can find us at the following addres:
+		<br> <b>27 Edinburgh St.
+		<br> Newton
+		<br> Auckland</b></p>
+		<p>For more details check the <a href="/wiki/index.php/Visiting_Tangle_Ball">Visiting Tangle Ball</a> wiki page.</p>
+		<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=174.74644303321838%2C-36.863956892248616%2C174.76436018943787%2C-36.855930677365755&amp;layer=mapnik&amp;marker=-36.85994389017622%2C174.75540161132812" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=-36.85994&amp;mlon=174.75540#map=17/-36.85994/174.75540">View Larger Map</a></small>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
     </body>
 </html>
 
